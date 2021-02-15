@@ -73,8 +73,8 @@ for (var i = 0; i < square.length; i++) {
             if (!isOplayer) {
                 if (!win) {
                     e.target.innerHTML = 'X';
-                    isOplayer = true
-                    currentPlayer.innerHTML = "O's Turn"
+                    isOplayer = true;
+                    currentPlayer.innerHTML = "O's Turn";
                     plays++;
                     judge()
                 }
