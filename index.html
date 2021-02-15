@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <nav>
+        <h1>Tahsin's Tic Tac Toe</h1>
+    </nav>
+    <div class="container">
+        <div class="currentPlayer"></div>
+        <div>
+            <table class="board">
+                <tr>
+                    <td class="square"></td>
+                    <td class="square"></td>
+                    <td class="square"></td>
+                </tr>
+                <tr>
+                    <td class="square"></td>
+                    <td class="square"></td>
+                    <td class="square"></td>
+                </tr>
+                <tr>
+                    <td class="square"></td>
+                    <td class="square"></td>
+                    <td class="square"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="winner"></div>
+        <div>
+            <button onclick="resetFn()" class="resetBtn">Reset</button>
+        </div>
+    </div>
+    <div class="leaderBoard">
+        <h2>Leader Board</h2>
+        <div class="xCountContainer"> X Score : 
+            <span class="xCount">0</span>
+        </div>
+        <div class="oCountContainer"> O Score : 
+            <span class="oCount">0</span>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
