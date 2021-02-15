@@ -66,7 +66,7 @@ var judge = function(e) {
     }
 }
 
-// Adds Xs and Os
+// Adds X's and O's 
 for (var i = 0; i < square.length; i++) {
     square[i].addEventListener("click", function (e) {
         if (plays < 9 && e.target.innerHTML === '') {
